@@ -1,6 +1,6 @@
 pipeline {
-    agent { label 'jfrog' }
-
+    //agent { label 'jfrog' }
+    agent any
     stages {
 
         stage('Build Stage') {
